@@ -25,7 +25,7 @@ namespace PriceTagPrint.Data
     */
     public class GetData
     {
-        private string ConnString = "Server=10.64.2.5;Database=bhgorder;Uid=root;Pwd=root;CharSet=utf8;port=3306";
+        private string ConnString = "Server=*;Database=*;Uid=root;Pwd=*;CharSet=utf8;port=3306";
         /// <summary>
         /// 获取品类组
         /// </summary> <returns></returns>
