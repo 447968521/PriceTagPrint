@@ -1,0 +1,112 @@
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:10:55
+【异常类型】：MySqlException
+【异常信息】：Access denied for user 'root'@'10.0.7.134' (using password: YES)
+【堆栈调用】：   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 PriceTagPrint.Data.MySqlHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 49
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:10:55
+【异常类型】：InvalidOperationException
+【异常信息】：Fill: SelectCommand.Connection 属性尚未初始化。
+【堆栈调用】：   在 System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 PriceTagPrint.Data.MySqlHelper.ExecuteDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 262
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:11:56
+【异常类型】：MySqlException
+【异常信息】：Access denied for user 'root'@'10.0.7.134' (using password: YES)
+【堆栈调用】：   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 PriceTagPrint.Data.MySqlHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 49
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:11:56
+【异常类型】：InvalidOperationException
+【异常信息】：Fill: SelectCommand.Connection 属性尚未初始化。
+【堆栈调用】：   在 System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 PriceTagPrint.Data.MySqlHelper.ExecuteDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 262
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:13:54
+【异常类型】：MySqlException
+【异常信息】：Access denied for user 'root'@'10.0.7.134' (using password: YES)
+【堆栈调用】：   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 PriceTagPrint.Data.MySqlHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 49
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:13:54
+【异常类型】：InvalidOperationException
+【异常信息】：Fill: SelectCommand.Connection 属性尚未初始化。
+【堆栈调用】：   在 System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 PriceTagPrint.Data.MySqlHelper.ExecuteDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 262
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:15:23
+【异常类型】：MySqlException
+【异常信息】：Access denied for user 'root'@'10.0.7.134' (using password: YES)
+【堆栈调用】：   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 PriceTagPrint.Data.MySqlHelper.PrepareCommand(MySqlConnection conn, MySqlTransaction trans, MySqlCommand cmd, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 49
+****************************************************************
+
+****************************异常文本****************************
+【出现时间】：2018/8/17 12:15:23
+【异常类型】：InvalidOperationException
+【异常信息】：Fill: SelectCommand.Connection 属性尚未初始化。
+【堆栈调用】：   在 System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 PriceTagPrint.Data.MySqlHelper.ExecuteDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 c:\Users\Administrator\Desktop\PriceTagPrint\PriceTagPrint\Data\MySqlHelper.cs:行号 262
+****************************************************************
+

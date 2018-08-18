@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>Application autoUpdate</description>
+  <Updater>
+	<Url>http://10.4.12.52:8000/Update/PriceTagPrint</Url>
+	<LastUpdateTime>18.8.1</LastUpdateTime>
+  </Updater>
+  <Application applicationId="StoreManage">
+    <EntryPoint>StoreManage</EntryPoint>
+    <Location>.</Location>
+    <Version>18.8.11.1</Version>
+  </Application>
+  <Files>
+	   <File Ver="18.8.11.1" Name="PriceTagPrint.exe" />
+  </Files>
+</AutoUpdater>
